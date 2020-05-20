@@ -1,0 +1,120 @@
+{
+  "peserta": {
+    "nama": [
+      "John Doe",
+      "John Roe",
+      "Ripper Rinna",
+      "Zen"
+    ],
+    "alamat": [
+      "Keputih, Surabaya",
+      "Semarang",
+      "Besuki, Tulungagung",
+      "New York"
+    ],
+    "jenis_kelamin": [
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "no_telp": [
+      "08123456789",
+      "08123456789",
+      "08123456789",
+      "08123456789"
+    ]
+  },
+  "donasi": {
+    "nama": [
+      "John Doe",
+      "John Roe",
+      "Ripper Rinna",
+      "Zen"
+    ],
+    "alamat": [
+      "Keputih, Surabaya",
+      "Semarang",
+      "Besuki, Tulungagung",
+      "New York"
+    ],
+    "jenis_kelamin": [
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "no_telp": [
+      "08123456789",
+      "08123456789",
+      "08123456789",
+      "08123456789"
+    ],
+    "nominal": [
+      50000,
+      1000000,
+      520000,
+      250000
+    ]
+  },
+  "keuangan": {
+    "keterangan": [
+      "Membeli perlengkapan",
+      "Membeli makanan buka puasa"
+    ],
+    "tanggal": [
+      "3 Mei 2020",
+      "11 Mei 2020"
+    ],
+    "jumlah": [
+      50000,
+      230000
+    ]
+  },
+  "akun": {
+    "username": [
+      "admin_rdk",
+      "sc_rdk",
+      "ic_rdk",
+      "oc_rdk"
+    ],
+    "role": [
+      "SC",
+      "IC",
+      "SC",
+      "OC"
+    ],
+    "password": [
+      "123456",
+      "123456",
+      "123456",
+      "123456"
+    ]
+  },
+  "panitia": {
+    "nama": [
+      "John Doe",
+      "John Roe",
+      "Ripper Rinna",
+      "Zen"
+    ],
+    "alamat": [
+      "Keputih, Surabaya",
+      "Semarang",
+      "Besuki, Tulungagung",
+      "New York"
+    ],
+    "jenis_kelamin": [
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "no_telp": [
+      "08123456789",
+      "08123456789",
+      "08123456789",
+      "08123456789"
+    ]
+  }
+}

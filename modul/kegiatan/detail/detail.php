@@ -52,4 +52,5 @@
             </tr>
         </tbody>
     </table>
+    <a href="daftar.php">Daftar Peserta</a>
 </form>
