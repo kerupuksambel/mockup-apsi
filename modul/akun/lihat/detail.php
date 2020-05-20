@@ -25,19 +25,19 @@
     ]
 ?>
 <form>
-    <table>
+    <table class='table'>
         <tbody>
             <tr>
                 <td>Username</td>
-                <td><input disabled value="Akun <?= $id+1 ?>"></td>
+                <td><input disabled value="Akun <?= $id+1 ?>" class='form-control'></td>
             </tr>
             <tr>
                 <td>Role</td>
-                <td><input disabled value="<?= $data['role'][$id] ?>"></td>
+                <td><input class='form-control' disabled value="<?= $data['role'][$id] ?>"></td>
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="password" disabled value="<?= $data['password'][$id] ?>"></td>
+                <td><input class='form-control' type="password" disabled value="<?= $data['password'][$id] ?>"></td>
             </tr>
         </tbody>
     </table>

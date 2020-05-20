@@ -56,19 +56,19 @@
             ]
         ?>
         <form>
-            <table>
+            <table class="table">
                 <tbody>
                     <tr>
                         <td>Username</td>
-                        <td><input value="Akun <?= $id+1 ?>"></td>
+                        <td><input value="Akun <?= $id+1 ?>" class='form-control'></td>
                     </tr>
                     <tr>
                         <td>Role</td>
-                        <td><input value="<?= $data['role'][$id] ?>"></td>
+                        <td><input value="<?= $data['role'][$id] ?>" class='form-control'></td>
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td><input type="password" value="<?= $data['password'][$id] ?>"></td>
+                        <td><input type="password" value="<?= $data['password'][$id] ?>" class='form-control'></td>
                     </tr>
                 </tbody>
             </table>

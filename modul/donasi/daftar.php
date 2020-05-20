@@ -28,27 +28,27 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-left">
-            <table>
+            <table class="table">
                 <tbody>
                     <tr>
                         <td>Nama</td>
-                        <td><input></td>
+                        <td><input class="form-control"></td>
                     </tr>
                     <tr>
                         <td>Alamat</td>
-                        <td><input ></td>
+                        <td><input class="form-control"></td>
                     </tr>
                     <tr>
                         <td>Jenis Kelamin (L/P)</td>
-                        <td><input max="1"></td>
+                        <td><input max="1" class="form-control"></td>
                     </tr>
                     <tr>
                         <td>No Telp</td>
-                        <td><input ></td>
+                        <td><input class="form-control"></td>
                     </tr>
                     <tr>
                         <td>Nominal</td>
-                        <td><input type="number"></td>
+                        <td><input type="number" class="form-control"></td>
                     </tr>
                 </tbody>
             </table>

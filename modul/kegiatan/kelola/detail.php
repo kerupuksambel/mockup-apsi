@@ -62,23 +62,23 @@
     ]
 ?>
 <form>
-    <table>
+    <table class="table">
         <tbody>
             <tr>
                 <td>Nama Kegiatan</td>
-                <td><input value="Kegiatan <?= $id+1 ?>"></td>
+                <td><input class='form-control' value="Kegiatan <?= $id+1 ?>"></td>
             </tr>
             <tr>
                 <td>Waktu kegiatan</td>
-                <td><input value="<?= $data['waktu'][$id] ?>"></td>
+                <td><input class='form-control' value="<?= $data['waktu'][$id] ?>"></td>
             </tr>
             <tr>
                 <td>Tempat kegiatan</td>
-                <td><input value="<?= $data['tempat'][$id] ?>"></td>
+                <td><input class='form-control' value="<?= $data['tempat'][$id] ?>"></td>
             </tr>
             <tr>
                 <td>Detail</td>
-                <td><input value="<?= $data['detail'][$id] ?>"></td>
+                <td><input class='form-control' value="<?= $data['detail'][$id] ?>"></td>
             </tr>
         </tbody>
     </table>

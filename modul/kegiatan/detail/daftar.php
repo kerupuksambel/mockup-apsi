@@ -1,8 +1,3 @@
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,23 +28,23 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-left">
-      <table>
+      <table class="table">
     <tbody>
         <tr>
             <td>Nama</td>
-            <td><input></td>
+            <td><input class='form-control'></td>
         </tr>
         <tr>
             <td>Alamat</td>
-            <td><input ></td>
+            <td><input class='form-control' ></td>
         </tr>
         <tr>
             <td>Jenis Kelamin (L/P)</td>
-            <td><input max="1"></td>
+            <td><input class='form-control' max="1"></td>
         </tr>
         <tr>
             <td>No Telp</td>
-            <td><input ></td>
+            <td><input class='form-control' ></td>
         </tr>
     </tbody>
 </table>

@@ -30,19 +30,19 @@
         <div class="row">
             <div class="col-lg-12 text-left">
                 <form>
-                    <table>
+                    <table class='table'>
                         <tbody>
                             <tr>
                                 <td>Username</td>
-                                <td><input name=""></td>
+                                <td><input name="" class='form-control'></td>
                             </tr>
                             <tr>
                                 <td>Role</td>
-                                <td><input name=""></td>
+                                <td><input name="" class='form-control'></td>
                             </tr>
                             <tr>
                                 <td>Password</td>
-                                <td><input type="password" name=""></td>
+                                <td><input type="password" name="" class='form-control'></td>
                             </tr>
                         </tbody>
                     </table>

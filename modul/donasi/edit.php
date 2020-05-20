@@ -29,27 +29,27 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-left">
-                <table>
+                <table class='table'>
                     <tbody>
                         <tr>
                             <td>Nama</td>
-                            <td><input value="John Doe"></td>
+                            <td><input class="form-control" value="John Doe"></td>
                         </tr>
                         <tr>
                             <td>Alamat</td>
-                            <td><input value="Surabaya"></td>
+                            <td><input class="form-control" value="Surabaya"></td>
                         </tr>
                         <tr>
                             <td>Jenis Kelamin (L/P)</td>
-                            <td><input max="1" value="L"></td>
+                            <td><input max="1" value="L" class="form-control"></td>
                         </tr>
                         <tr>
                             <td>No Telp</td>
-                            <td><input value="08123456789" ></td>
+                            <td><input value="08123456789" class="form-control"></td>
                         </tr>
                         <tr>
                             <td>Nominal</td>
-                            <td><input type="number" value="12000000"></td>
+                            <td><input type="number" value="12000000" class="form-control"></td>
                         </tr>
                     </tbody>
                 </table>

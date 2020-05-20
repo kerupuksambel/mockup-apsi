@@ -30,23 +30,23 @@
       <div class="col-lg-12 text-left">
         
 <form action="confirmation.php">
-    <table>
+    <table class="table">
         <tbody>
             <tr>
                 <td>Nama Kegiatan</td>
-                <td><input type="text" value=""></td>
+                <td><input class='form-control' type="text" value=""></td>
             </tr>
             <tr>
                 <td>Waktu kegiatan</td>
-                <td><input type="text" value=""></td>
+                <td><input class='form-control' type="text" value=""></td>
             </tr>
             <tr>
                 <td>Tempat kegiatan</td>
-                <td><input type="text" value=""></td>
+                <td><input class='form-control' type="text" value=""></td>
             </tr>
             <tr>
                 <td>Detail</td>
-                <td><input type="text" value=""></td>
+                <td><input class='form-control' type="text" value=""></td>
             </tr>
         </tbody>
     </table>

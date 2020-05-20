@@ -67,23 +67,23 @@
         <div class="row">
             <div class="col-lg-12 text-left">
                 <form>
-                    <table>
+                    <table class="table">
                         <tbody>
                             <tr>
                                 <td>Nama Kegiatan</td>
-                                <td><input disabled value="Kegiatan <?= $id+1 ?>"></td>
+                                <td><input class='form-control' disabled value="Kegiatan <?= $id+1 ?>"></td>
                             </tr>
                             <tr>
                                 <td>Waktu kegiatan</td>
-                                <td><input disabled value="<?= $data['waktu'][$id] ?>"></td>
+                                <td><input class='form-control' disabled value="<?= $data['waktu'][$id] ?>"></td>
                             </tr>
                             <tr>
                                 <td>Tempat kegiatan</td>
-                                <td><input disabled value="<?= $data['tempat'][$id] ?>"></td>
+                                <td><input class='form-control' disabled value="<?= $data['tempat'][$id] ?>"></td>
                             </tr>
                             <tr>
                                 <td>Detail</td>
-                                <td><input disabled value="<?= $data['detail'][$id] ?>"></td>
+                                <td><input class='form-control' disabled value="<?= $data['detail'][$id] ?>"></td>
                             </tr>
                         </tbody>
                     </table>
