@@ -29,37 +29,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-left">
-                    
-                    <table class='table'>
-                        <thead>
-                            <tr>
-                                <th>
-                                    Username
-                                </th>
-                                <th>
-                                    Role
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Akun 1</td>
-                                <td>SC</td>
-                            </tr>
-                            <tr>
-                                <td>Akun 2</td>
-                                <td>IC</td>
-                            </tr>
-                            <tr>
-                                <td>Akun 3</td>
-                                <td>OC</td>
-                            </tr>
-                            <tr>
-                                <td>Akun 4</td>
-                                <td>OC</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <?php 
+            $id = 0;
+        
+            $data = [
+                'username' => [
+                    'Pengajian Bersama',
+                    'Buka Bersama',
+                    'Sahur Bersama',
+                    'Tadarusan'
+                ],
+        
+                'role' => [
+                    'SC',
+                    'IC',
+                    'OC',
+                    'OC'
+                ],
+        
+                'password' => [
+                    '123456',
+                    '123456',
+                    '281477',
+                    '123456'
+                ],
+            ]
+        ?>
+        <form>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Username</td>
+                        <td><input disabled value="Akun <?= $id+1 ?>" class='form-control'></td>
+                    </tr>
+                    <tr>
+                        <td>Role</td>
+                        <td><input disabled value="<?= $data['role'][$id] ?>" class='form-control'></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input disabled type="password" value="<?= $data['password'][$id] ?>" class='form-control'></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+                
                     <a class='btn btn-primary' href="akun/update/detail.php?id=1">Update Akun</a>
                     <a class='btn btn-primary' href="akun/daftar/form.php">Tambah Akun</a>
                 </div>

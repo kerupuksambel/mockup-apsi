@@ -35,17 +35,17 @@
                         <th>Tanggal</th>
                     <tbody>
                         <tr>
-                            <td><input class='form-control' value="Beli makanan buka puasa"></td>
+                            <td><input class='form-control' value="MASUK"></td>
                             <td><input class='form-control' value="500000" type="number"></td>
                             <td><input class='form-control' value="2020-05-01" type="date">
                         </tr>
                         <tr>
-                            <td><input class='form-control' value="Beli perlengkapan"></td>
+                            <td><input class='form-control' value="KELUAR"></td>
                             <td><input class='form-control' value="150000" type="number"></td>
                             <td><input class='form-control' value="2020-04-29" type="date">
                         </tr>
                         <tr>
-                            <td><input class='form-control' value="Honorarium ustadz"></td>
+                            <td><input class='form-control' value="MASUK"></td>
                             <td><input class='form-control' value="150000" type="number"></td>
                             <td><input class='form-control' value="2020-05-07" type="date">
                         </tr>
